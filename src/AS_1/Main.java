@@ -10,13 +10,13 @@ public class Main {
         ArrayList <Serie> catalogo = new ArrayList<Serie>();
         int escolha = 0;
         do{
-            System.out.println("Digiete 1 para adicionar uma série");
-            System.out.println("Digiete 2 para apagar uma série");
-            System.out.println("Digiete 3 para listar todas as séries");
-            System.out.println("Digiete 4 para listar as séries vistas");
-            System.out.println("Digiete 5 para listar as séries não vistas");
-            System.out.println("Digiete 6 para pesquisar uma série por nome");
-            System.out.println("Digiete 7 para mostrar quantas séries tem no catálogo");
+            System.out.println("Digite 1 para adicionar uma série");
+            System.out.println("Digite 2 para apagar uma série");
+            System.out.println("Digite 3 para listar todas as séries");
+            System.out.println("Digite 4 para listar as séries vistas");
+            System.out.println("Digite 5 para listar as séries não vistas");
+            System.out.println("Digite 6 para pesquisar uma série por nome");
+            System.out.println("Digite 7 para mostrar quantas séries tem no catálogo");
             escolha=teclado.nextInt();
             switch (escolha){
                 case 1:{
