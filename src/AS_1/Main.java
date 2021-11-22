@@ -1,5 +1,7 @@
 package AS_1;
 
+//Realizado por Felipe Silva Ribeiro e Alessandro Ribeiro
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
